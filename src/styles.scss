@@ -1,0 +1,39 @@
+$mainBlue: #3A75C4;
+
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family:'Open Sans','Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// Components
+@import './Components/ScreenSelector/ScreenSelector.scss';
+@import './Components/ScreenButton/ScreenButton.scss';
+
+// Screens
+@import './Screens/ParkingScreen/ParkingScreen.scss';
+@import './Screens/WeatherScreen/WeatherScreen.scss';
+@import './Screens/CryptoScreen/CyptoScreen.scss';

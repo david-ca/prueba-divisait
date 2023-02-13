@@ -1,0 +1,49 @@
+.weatherscreen-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+
+    span {
+        font-weight: bold;
+    }
+
+    .item {
+        padding: 1rem;
+    }
+
+    .date {
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .tempMax {
+        text-align: center;
+        color: rgb(202, 0, 0);
+        font-weight: bold;
+    }
+
+    .tempMin {
+        text-align: center;
+        color: #5959b6;
+        font-weight: bold;
+    }
+
+    .legend {
+        color: rgb(159, 159, 159);
+        white-space: nowrap;
+        margin-right: 0.5rem;
+    }
+
+    .weather {
+        display: flex;
+        flex-direction: row;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .explanation {
+        margin-top: 2rem;
+    }
+}
+
